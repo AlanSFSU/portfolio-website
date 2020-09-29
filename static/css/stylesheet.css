@@ -1,0 +1,42 @@
+/* global changes to be consistent across browsers */
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+html
+{
+    height:100%;
+}
+
+body
+{
+    font-family: "Times New Roman", Times, serif;
+    min-height: 100%;
+    background: #e3e3e3;
+}
+
+#navi
+{
+    border-bottom: 0;
+    background: #a6ccec;
+    border-radius: ;
+}
+
+#navi a.active
+{
+    background-color: #21dfdf;
+}
+
+/* removes the white gap between tabs and make the active tab circular */
+.nav-tabs .nav-link{
+  border:0px;
+  border-radius: 10px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  text-align:center;
+}
