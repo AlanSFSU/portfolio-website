@@ -20,7 +20,7 @@ body
 #navi
 {
     border-bottom: 0;
-    background: #a6ccec;
+    background: #343a40;
     border-radius: ;
 }
 
@@ -39,4 +39,21 @@ body
   position: fixed;
   bottom: 0;
   text-align:center;
+}
+
+/*size and color for linkedin icon */
+.fab.fa-linkedin
+{
+  font-size: 30px;
+  color:white;
+}
+
+.fab.fa-linkedin:hover{
+  color: #007bff;
+}
+
+/*size and color for home icon */
+.fas.fa-home{
+  font-size:20px;
+  color:white;
 }

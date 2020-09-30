@@ -3,7 +3,7 @@
       <!-- tabs -->
       <ul class = "nav nav-tabs" role="tablist">
           <li class="nav-item">
-              <a class="nav-link active" data-toggle="tab" href="index.html">Home</a>
+              <a class="nav-link" data-toggle="tab" href="index.html"><i class="fas fa-home"></i></a>
           </li>
           <li class="nav-item">
               <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
