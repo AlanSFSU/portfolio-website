@@ -14,27 +14,23 @@
   <!-- inserts navigation bar -->
   <?php include "navbar.php" ?>
 
-  <!-- tab panes -->
-  <div class="tab-content">
-      <div id="home" class="container tab-pane active"><br>
-
-          <!--
-          <h3>Welcome to Alan's Website</h3>
-          <button id="meButt" onclick="toggleText()">About me</button>
-          <div id="myText" style="display:none;">My name is Alan and this is my portfolio website </div>
-          -->
-          <ul>
-                  <a class="nav-link" data-toggle="tab" href="#">About me</a>
-                  <a class="nav-link" data-toggle="tab" href="#">Github Projects</a>
-                  <a class="nav-link" data-toggle="tab" href="#">Contact me</a>
-          </ul>
-
-      </div>
-  </div>
+  <!-- sections of content -->
+  <section id="home">
+    <h1>Welcome to my website</h1>
+  </section>
+  <section id="about">
+    <h1>About</h1>
+  </section>
+  <section id="Projects">
+    <h1>My ongoing projects</h1>
+  </section>
+  <section id="contact">
+    <h1>contact me</h1>
+  </section>
 
 
-
-  <?php include "footer.php" ?>
+<!-- ending div from navbar php -->
+</div>
   <!--   <a target="_blank" href="http://google.com">this goes to google</a> -->
   <script type="text/javascript" src="static/index.js"> </script>
 </body>

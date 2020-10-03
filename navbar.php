@@ -1,9 +1,11 @@
   <!-- navigation bar -->
-  <div id="navi">
+  <div class ="container">
       <!-- tabs -->
-      <ul class = "nav nav-tabs" role="tablist">
-          <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="index.html"><i class="fas fa-home"></i></a>
-          </li>
-      </ul>
-  </div>
+      <nav class = "navbar" role="tablist">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#home">Projects</a></li>
+          <li><a href="#home">Contact me</a></li>
+        </ul>
+      </nav>
