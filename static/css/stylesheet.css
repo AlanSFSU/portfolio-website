@@ -86,3 +86,22 @@ section p{
 #Projects a{
   font-size: 3rem;
 }
+
+table {
+  margin: auto;
+  width: 75%;
+}
+
+table th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+table tr td{
+  text-align: left;
+}
+
+#Projects a table tr td a{
+    font-size: 50%;
+}
