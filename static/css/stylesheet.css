@@ -102,6 +102,22 @@ table tr td{
   text-align: left;
 }
 
-#Projects a table tr td a{
-    font-size: 50%;
+/* the border outlines of the table */
+#tProj td, #tProj th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* alternate colors on every other row */
+#tProj tr:nth-child(even){
+  background-color: #463a3a;
+}
+
+/* change color when hovered over */
+#tProj tr:hover{
+  background-color: black;
+}
+
+#tProj a{
+  font-size: 2rem;
 }
